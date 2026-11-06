@@ -10,11 +10,11 @@
 <main>
   <p class="mark"><a href="./">Filmaholic</a></p>
   <h1>Privacy policy</h1>
-  <p class="meta">Effective 3 November 2026 · Below Studios</p>
+  <p class="meta">Effective 7 November 2026 · Below Studios</p>
 
   <p class="lead">Filmaholic has no advertising and no tracking. The camera, the darkroom and your photos stay on your
-  phone. What leaves it is what you choose to put in the community, which is public by design, and a monthly count
-  of what you use in the app, which you can turn off. This page explains each.</p>
+  phone. What leaves it is what you choose to put in the community, which is public by design, and counts of what you
+  use in the app, which you can turn off. This page explains each.</p>
 
   <h2>On your phone</h2>
   <dl>
@@ -38,9 +38,9 @@
   </dl>
 
   <h2>The community (optional)</h2>
-  <p>The community lets you post photos, share film looks, enter photo challenges, comment on photos, and like and rate
-  what other people make. You don't have to use it, and browsing doesn't need you to sign in. If you post, publish,
-  comment, like, rate, enter a challenge or set up a profile,
+  <p>The community lets you post photos, share film looks, enter photo challenges, comment on photos, follow people,
+  and like and rate what other people make. You don't have to use it, and browsing doesn't need you to sign in. If you
+  post, publish, comment, like, rate, follow, enter a challenge or set up a profile,
   Filmaholic stores that with Supabase, the database and file service we use for the community, on its servers in
   Sydney, Australia. iPhone and Android share the same community.</p>
   <p>The first time you use the community, Filmaholic makes an account for it on your phone, without asking you to
@@ -65,10 +65,20 @@
     <li><strong>Likes</strong>: each like is stored with your community account so it counts once; the number of likes
     on a photo is public.</li>
     <li><strong>Ratings and adds</strong>: the makers of looks you rate or add can be told, with your username.</li>
+    <li><strong>Follows</strong>: who you follow. You can see who you follow, and the person you follow can see you in
+    their list of followers if you have a username. How many followers someone has is public; who they are isn't.</li>
+    <li><strong>Photos taken on community looks</strong>: when you take or export a photo on a look you added from the
+    community, Filmaholic counts it for that look, with your community account, so its maker can see how much it's
+    used. The first time, it also counts the photos already in Your photos that were shot on it. It's numbers only,
+    never the photos. Only the totals are public: how many photos were taken on a look and by how many people. It goes
+    with your usage counts: turning off <strong>Share usage counts</strong> stops it.</li>
+    <li><strong>A device identifier</strong>: a random identifier Filmaholic makes on your phone and keeps with your
+    community account, so that if an account is stopped from using the community, that stays true on the phone it was
+    used on. It isn't used for anything else and isn't shared.</li>
     <li><strong>Reports</strong> you send: what you reported and why. Only our moderators see these.</li>
     <li><strong>Notifications</strong> (iPhone): if you turn them on, which ones you want (people adding or rating your
-    looks, comments on your photos, a new photo challenge) and your phone's notification token, which Apple's push
-    service uses to deliver them.</li>
+    looks, comments on your photos, new followers, new looks from people you follow, photos posted on your looks, a new
+    photo challenge) and your phone's notification token, which Apple's push service uses to deliver them.</li>
   </ul>
   <p>Photos you post or publish are re-encoded first, which removes their location and other metadata. Before a
   photo, profile photo or sample photo goes up, Filmaholic can check it for nudity on your iPhone, using Apple's Sensitive Content Analysis,
@@ -82,7 +92,8 @@
   <p>So we know what to improve, Filmaholic sends a count of what you did in the app each month: for example how many
   photos and videos you took, which of Filmaholic's films they were shot on, and how often you exported, imported or used
   the community. It's numbers only, never your photos, what you wrote or where you were. It's stored with Supabase,
-  with the same community account, and only our moderators can see it. It isn't used for advertising or to track you across other apps. To stop it, go to the <strong>You</strong> tab,
+  with the same community account, and only our moderators can see it (apart from the totals of photos taken on
+  community looks, above). It isn't used for advertising or to track you across other apps. To stop it, go to the <strong>You</strong> tab,
   then <strong>Settings</strong>, and turn off <strong>Share usage counts</strong>.</p>
 
   <h2>Shared links and the App Clip</h2>
@@ -98,8 +109,9 @@
   <h2>Deleting your community account</h2>
   <p>In Filmaholic, go to the <strong>You</strong> tab, then <strong>Settings</strong>, then <strong>Delete my
   community account</strong>. This deletes your username and profile, your posts and challenge entries, your
-  comments, the looks you've published, your likes, ratings and adds, the reports you sent, your notifications and your usage counts,
-  from the community and from what's left of it in Apple's CloudKit. Your looks and photos on your phone stay. You can also remove a single post or look at any time. If you can't use the app, email us and we'll delete it for you.</p>
+  comments, the looks you've published, your likes, ratings and adds, who you follow and who follows you, the reports
+  you sent, your notifications, your usage counts and your counts of photos taken on community looks,
+  from the community and from what's left of it in Apple's CloudKit. Your looks and photos on your phone stay. If the account had been stopped from using the community, that stop and its device identifier are kept, so it still holds. You can also remove a single post or look at any time. If you can't use the app, email us and we'll delete it for you.</p>
   <p>We keep community content until you delete it or we remove it under the guidelines.</p>
 
   <h2>Sharing and selling</h2>
